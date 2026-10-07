@@ -1,3 +1,10 @@
+# Changelog
+
+## 1.0.1
+
+- Added two gameplay GIFs and shortened the package description.
+- Documentation update; gameplay is unchanged.
+
 # QuickSpraySelector
 
 ## 1.0.0
