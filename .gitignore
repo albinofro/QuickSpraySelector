@@ -1,0 +1,11 @@
+.vs
+.vscode
+bin
+obj
+output
+Thunderstore/plugins
+*.dll
+*.exe
+*.zip
+.local-tools
+*.user

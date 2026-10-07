@@ -1,0 +1,104 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net46</TargetFramework>
+    <AssemblyName>QuickSpraySelector</AssemblyName>
+    <Description>QuickSpraySelector</Description>
+    <Version>1.0.0</Version>
+    <Authors>Stooo</Authors>
+    <Company>Stooo</Company>
+    <LangVersion>latest</LangVersion>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="SelectorForegroundDots.cs" />
+    <Compile Include="SelectionAudio.cs" />
+    <Compile Include="Plugin.cs" />
+    <Compile Include="BackgroundBlur.cs" />
+    <Compile Include="SelectorCameraMotion.cs" />
+    <Compile Include="PresentationTiming.cs" />
+    <Compile Include="CameraMotionState.cs" />
+    <Compile Include="Patches.cs" />
+    <Compile Include="NativeSprayPose.cs" />
+    <Compile Include="SelectorPaintCloud.cs" />
+    <Compile Include="WheelSelection.cs" />
+    <Compile Include="WheelAimInput.cs" />
+    <Compile Include="WheelStyle.cs" />
+    <Compile Include="PaintVisuals.cs" />
+    <Compile Include="WirkleMotion.cs" />
+    <Compile Include="WheelMotion.cs" />
+    <Compile Include="GameButtonHints.cs" />
+    <Compile Include="LastGraffitiStore.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="assets\dance-pointer.png" LogicalName="QuickPickGraffiti.dance-pointer.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(GameManagedPath)\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>$(GameManagedPath)\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>$(GameManagedPath)\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Core">
+      <HintPath>$(GameManagedPath)\Rewired_Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>$(GameManagedPath)\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(GameManagedPath)\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>$(GameManagedPath)\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>$(GameManagedPath)\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(GameManagedPath)\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>$(GameManagedPath)\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>$(GameManagedPath)\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>$(GameManagedPath)\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>$(GameManagedPath)\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>$(GameManagedPath)\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>$(GameManagedPath)\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>$(GameManagedPath)\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>$(GameManagedPath)\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>$(BepInExCorePath)\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(BepInExCorePath)\0Harmony.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" PrivateAssets="all" />
+  </ItemGroup>
+
+</Project>
