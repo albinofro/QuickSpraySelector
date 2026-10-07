@@ -1,0 +1,9 @@
+{
+  "name": "QuickSpraySelector",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/albinofro/QuickSpraySelector",
+  "description": "Replaces the Graffiti Minigame with a weapon wheel style selector. Press cancel to spray last used piece.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}
